@@ -1,6 +1,12 @@
 # `nu-sandbox`
 
 ## Running the scripts
+To run all scripts from Nu with `NU_LOG_LEVEL` set to 'debug'
+[source,nu]
+---
+with-env [NU_LOG_LEVEL debug] {source 'runemall.nu'}
+---
+
 To run all scripts from PowerShell with `NU_LOG_LEVEL` set to 'debug'
 [source,powershell]
 ----
