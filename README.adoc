@@ -4,4 +4,4 @@ This is just a place for me to experiment and learn about nu.
 - `features.nu` uses the custom command `utils.nu/get-features` to show nushell's features
     * uses custom command `utils.nu/get-features`
     * `utils.nu/get-features` reads nushell's `Cargo.toml` file with `http get`
-    * uses nushell's ability to read .toml files
+    * `utils.nu/get-features` uses nushell's ability to read .toml file to a 'record'
