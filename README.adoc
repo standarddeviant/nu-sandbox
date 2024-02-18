@@ -1,7 +1,23 @@
 # `nu-sandbox`
+
+## Running the scripts
+To run all scripts from PowerShell with `NU_LOG_LEVEL` set to 'debug'
+[source,powershell]
+----
+$env:NU_LOG_LEVEL='debug'; nu .\runemall.nu
+----
+
+To run all scripts from bash with `NU_LOG_LEVEL` set to 'debug'
+[source,bash]
+----
+NU_LOG_LEVEL='debug' nu ./runemall.nu
+----
+
+## Content of the scripts
 This is just a place for me to experiment and learn about nu.
 
 - `features.nu` uses the custom command `utils.nu/get-features` to show nushell's features
     * uses custom command `utils.nu/get-features`
     * `utils.nu/get-features` reads nushell's `Cargo.toml` file with `http get`
     * `utils.nu/get-features` uses nushell's ability to read .toml file to a 'record'
+
